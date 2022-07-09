@@ -2,7 +2,7 @@
 
 bool isPrime(int Number) {
 	for (int i = 2; i * i <= Number; i++)
-		if (Number % i * i == 0) return false;
+		if (Number % i == 0) return false;
 
 	return true;
 }
